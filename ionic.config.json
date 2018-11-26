@@ -1,6 +1,6 @@
 {
   "name": "moodlemobile",
-  "app_id": "com.moodle.moodlemobile",
+  "app_id": "com.dgthealth.moodlemobile",
   "type": "ionic-angular",
   "integrations": {
     "cordova": {},
