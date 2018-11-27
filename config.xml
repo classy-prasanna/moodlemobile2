@@ -43,6 +43,10 @@
     <feature name="StatusBar">
         <param name="ios-package" onload="true" value="CDVStatusBar" />
     </feature>
+
+    <icon src="icon.png" />
+    <gap:splash src="splash.png" />
+
     <platform name="android">
         <splash qualifier="land-ldpi" src="resources/android/splash/drawable-land-ldpi-screen.png" />
         <splash qualifier="land-mdpi" src="resources/android/splash/drawable-land-mdpi-screen.png" />

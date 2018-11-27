@@ -50659,10 +50659,13 @@ ion-app.app-root page-core-login-forgotten-password .content {
 
 ion-app.app-root page-core-login-init .scroll-content {
   background-color: #ff5c00;
-  /* Change this to add a bg image or change color */
   background: radial-gradient(#ff7600, #ff5c00);
   background-repeat: no-repeat;
   background-position: center center;
+  /* background: $appSplash;       
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        background-position: center center; */
 }
 
 ion-app.app-root page-core-login-init .core-bglogo {
@@ -50688,6 +50691,8 @@ ion-app.app-root page-core-login-init .core-bglogo .core-logo {
 ion-app.app-root page-core-login-init .core-bglogo img {
   width: 60%;
   max-width: 300px;
+  /* display: block;*/
+  /* Custom code. */
   display: block;
   margin: 0 auto;
   margin-bottom: 30px;
